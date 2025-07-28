@@ -322,9 +322,9 @@ Title.Active = true
 Title.BackgroundColor3 = Color3.fromRGB(36,36,37)
 Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
-Title.Font = Enum.Font.SourceSans
+Title.Font = Enum.Font.Gotham
 Title.TextSize = 18
-Title.Text = "Nytherune IY v" .. currentVersion
+Title.Text = "Infinite Yield Nytherune v" .. currentVersion
 
 do
 	local emoji = ({
@@ -381,7 +381,7 @@ Cmdbar.TextXAlignment = Enum.TextXAlignment.Left
 Cmdbar.TextColor3 = Color3.new(1, 1, 1)
 Cmdbar.Text = ""
 Cmdbar.ZIndex = 10
-Cmdbar.PlaceholderText = "Command Bar"
+Cmdbar.PlaceholderText = "Digite seus Scripts"
 
 CMDsF.Name = "CMDs"
 CMDsF.Parent = Holder
@@ -13051,5 +13051,5 @@ task.spawn(function()
 	Credits:Destroy()
 	IntroBackground:Destroy()
 	minimizeHolder()
-	if IsOnMobile then notify("Unstable Device", "On mobile, Infinite Yield may have issues or features that are not functioning correctly.") end
+	if IsOnMobile then notify("Isso é um script que vem no pack de Scripts Universais do Nytherune!") end
 end)
